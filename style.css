@@ -134,6 +134,10 @@ html, body {
     .main .left .left_container .facebook_wrapper {
         height: 100%;
         width: 100%;
+    }
+    .main .left .left_container .instgram_wrapper .title,
+    .main .left .left_container .facebook_wrapper .title {
         font-size: 15px;
+
     }
 }

@@ -118,22 +118,22 @@ html, body {
 }
 
 @media screen and (max-width: 640px) {
+    
+    .main .left .left_container .instgram_wrapper,
+    .main .left .left_container .facebook_wrapper {
+        /* height: 110%; */
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 460px) {
     .main .left .left_container {
         display: grid;
     }
     .main .left .left_container .instgram_wrapper,
     .main .left .left_container .facebook_wrapper {
-        height: 110%;
-        /* width: 80%; */
-    }
-    .main .left .left_container .instgram_wrapper {
-    }
-}
-
-@media screen and (max-width: 460px) {
-    .main .left .left_container .instgram_wrapper,
-    .main .left .left_container .facebook_wrapper {
         height: 100%;
         width: 100%;
+        font-size: 15px;
     }
 }

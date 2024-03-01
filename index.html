@@ -4,25 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>روائع سبأ للتخفيضات</title>
+    <link rel="shortcut icon" href="img/logo-3.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="preload_wrapper">
+        <div class="preloader">
+            <!-- <img src="img/logo1.jpeg" alt="preloader"> -->
+        </div>
+    </div>
     <div class="main">
-        <div class="right"></div>
+        <div class="right">
+            <div class="right_container">
+                <div>
+                    <img src="img/logo1.jpeg" alt="rawayie-logo">
+                </div>
+                <div class="title" dir="ltr">
+                    <h2>@rawayie.saba</h2>
+                    <br>
+                    <p>+967 782-222-280</p>
+                </div>
+            </div>
+        </div>
         <div class="left">
             <div class="left_container">
-                <a rel="noopener" href="https://www.instagram.com/rawayie.saba?igsh=MzRlODBiNWFlZA==" target="_blank" class="instgram_wrapper">
-                    <div class="title">
-                        صفحتنا على الانستقرام
-                    </div>
-                </a>
                 <a rel="noopener" href="https://www.facebook.com/profile.php?id=61556934148716" target="_blank" class="facebook_wrapper">
                     <div class="title">
                         صفحتنا على الفيسبوك
                     </div>
                 </a>
+                <a rel="noopener" href="https://www.instagram.com/rawayie.saba?igsh=MzRlODBiNWFlZA==" target="_blank" class="instgram_wrapper">
+                    <div class="title">
+                        صفحتنا على الانستقرام
+                    </div>
+                </a>
             </div>
         </div>
     </div>
+
+
+
+    <script>
+        window.addEventListener('load', function(){
+            document.querySelector('.preload_wrapper').style.opacity = "0.0";
+            setTimeout(() => {
+                document.querySelector('.preload_wrapper').remove();
+            }, 2000);
+           
+        });
+    </script>
 </body>
 </html>
